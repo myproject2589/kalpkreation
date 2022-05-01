@@ -1,0 +1,10 @@
+<div class="navbar d-flex align-items-center">
+  <img src="../assets/KK logo new-02.png" height="75" width="75" style="margin-left: 20px;">
+  <div class="d-flex align-items-center" style="margin-right: 10%;">
+    <h5 class="nav-item" [routerLink]="['./home']">Home</h5>
+    <h5 class="nav-item" [routerLink]="['./work']">Work</h5>
+    <h5 class="nav-item" (click)="openAbout()">About</h5>
+    <h5 class="nav-item" (click)="openAddress()">Address</h5>
+  </div>
+</div>
+<router-outlet></router-outlet>
